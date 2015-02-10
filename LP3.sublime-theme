@@ -513,7 +513,7 @@
     //
     {
         "class": "puck_control",
-        "layer0.tint": [205,192,208],
+        "layer0.tint": [200,200,200],
         "layer0.opacity": 1.0,
         "content_margin": [7,0],
         "blur": false
@@ -573,7 +573,7 @@
         "attributes" : ["horizontal"],
         "parents": [{  "class": "sheet_container_control" }],
         "settings": ["lp_always_show_minimap_viewport", "lp_autohide_scrollbars"],
-        "layer0.opacity" : 0.5
+        "layer0.opacity" : 1
     },
     //          SETTINGS 
     {
@@ -588,7 +588,7 @@
         "attributes" : ["horizontal"],
         "parents": [{  "class": "sheet_container_control" }],
         "settings": ["always_show_minimap_viewport", "overlay_scroll_bars"],
-        "layer0.opacity" : 0.5
+        "layer0.opacity" : 1
     },
 
 
