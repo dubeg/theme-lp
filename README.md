@@ -21,7 +21,7 @@ With future release, I'll try to add settings so that the UI matches even more t
 
 ![Tab styles](http://i.imgur.com/BizXGW1.png)
 
-![Tab sizes](http://i.imgur.com/6MxDfnz.png)
+![Tab sizes](http://i.imgur.com/wiUnRPt.png)
 
 ![Sidebar row styles](http://i.imgur.com/5j8ZjmB.png)
 
