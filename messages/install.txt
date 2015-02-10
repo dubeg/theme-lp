@@ -1,0 +1,89 @@
+# Message 
+
+Most icons are from SETI, which is a dark theme. I remade a few of them (which I personally use), but I'm working on the rest of them, don't worry. 
+
+For more info and screenshots, visit the [project site](github.com/dubeg/theme-lp).
+
+# Activation
+
+**Sublime Text 3 - User Settings**
+
+    "theme": "LP3.sublime-theme"
+
+**Sublime Text 2 - User Settings**
+
+    "theme" : "LP2.sublime-theme"
+
+
+# Customization
+
+**Sublime Text 3 - User Settings**
+
+    "lp_hide_btn_close_tab" : true,
+    "lp_always_show_minimap_viewport" : true,
+    "lp_autohide_scrollbars" : true,
+    "lp_bold_folder_labels" : true,
+    "lp_mouse_wheel_switches_tabs" : true,
+    "lp_highlight_active_sidebar_row" : true,
+    
+    "lp_hide_file_icons" : true,
+    "lp_hide_folders" : true,
+    "lp_hide_group_icons" : true,
+    "lp_hide_scrollbars" : true,
+
+    "lp_use_folder_icon1" : true, // Default
+    "lp_use_folder_icon2" : true,
+    "lp_use_folder_icon3" : true,
+    "lp_use_folder_icon4" : true,
+
+    "lp_use_group_icon1" : true, // Default
+    "lp_use_group_icon2" : true,
+    "lp_use_group_icon3" : true,
+    "lp_use_group_icon4" : true,
+
+    "lp_use_sidebar_active_row_style1": true, // Default
+    "lp_use_sidebar_active_row_style2": true,
+    "lp_use_sidebar_active_row_style3": true,
+    
+    "lp_use_tab_dirty_icon1": true, // Default 
+    "lp_use_tab_dirty_icon2": true, 
+
+    "lp_use_tab_style0" : true, // Default
+    "lp_use_tab_style1" : true,
+    "lp_use_tab_style2" : true,
+    "lp_use_tab_style3" : true,
+    "lp_use_tab_style4" : true,
+    "lp_use_tab_style5" : true,
+
+    "lp_use_small_tabs": true,
+    "lp_use_mini_tabs": true
+
+
+**Sublime Text 2 - User Settings**
+
+    "lp_hide_btn_close_tab" : true,
+    "lp_bold_folder_labels" : true,
+    "lp_highlight_active_sidebar_row" : true,
+    "lp_hide_group_icons" : true,
+
+    "lp_use_group_icon1" : true, // Default
+    "lp_use_group_icon2" : true,
+    "lp_use_group_icon3" : true,
+    "lp_use_group_icon4" : true,
+
+    "lp_use_sidebar_active_row_style1": true, // Default
+    "lp_use_sidebar_active_row_style2": true,
+    "lp_use_sidebar_active_row_style3": true,
+    
+    "lp_use_tab_dirty_icon1": true, // Default 
+    "lp_use_tab_dirty_icon2": true, 
+
+    "lp_use_tab_style0" : true, // Default
+    "lp_use_tab_style1" : true,
+    "lp_use_tab_style2" : true,
+    "lp_use_tab_style3" : true,
+    "lp_use_tab_style4" : true,
+    "lp_use_tab_style5" : true,
+
+    "lp_use_small_tabs": true,
+    "lp_use_mini_tabs": true
