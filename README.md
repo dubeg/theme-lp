@@ -3,8 +3,6 @@
 Light and Purple (LP) theme for Sublime Text 2/3.
 Project site - [github.com/dubeg/theme-lp](https://github.com/dubeg/theme-lp)
 
-With future release, I'll try to add settings so that the UI matches even more the look of the light theme in Visual Studio. 
-
 ## Screenshots
 
 ![Default window](http://i.imgur.com/kBnPxek.png)
@@ -24,6 +22,10 @@ With future release, I'll try to add settings so that the UI matches even more t
 ![Tab sizes](http://i.imgur.com/wiUnRPt.png)
 
 ![Sidebar row styles](http://i.imgur.com/5j8ZjmB.png)
+
+## Visual Studio Light Style
+
+![VS Skin](http://i.imgur.com/5kIekBD.png)
 
 ## Installation
 
@@ -56,6 +58,22 @@ To configure Sublime Text to use the theme, follow the instructions below.
 **ST2**
 
     "theme": "LP2.sublime-theme"
+
+### Visual Studio Style
+
+To use the vs style, you must have ST3 (for now) and add a file named 'Widget - LP3.sublime-settings' in your User directory, with the following content:
+
+    {
+        "color_scheme": "Packages/Theme - LP/assets/Widget_VS.stTheme"
+    }
+
+In your User Settings, add the following line:
+
+    "lp_use_vs" : true
+
+Note that this setting override settings for tabs and the active sidebar row.  To use the vs folder icon, add this line to your User settings:
+
+    "lp_use_folder_icon2": true
 
 
 ## Configuration
@@ -101,7 +119,12 @@ You can use the settings below to customize the theme to your liking.
     "lp_use_tab_style5" : true,
 
     "lp_use_small_tabs": true,
-    "lp_use_mini_tabs": true
+    "lp_use_mini_tabs": true,
+
+    // -----------------------------------------------
+    // New with 1.1.0
+    // -----------------------------------------------
+    "lp_use_vs" : true          // Visual Studio UI Style
 
 
 ## Resolution Support
