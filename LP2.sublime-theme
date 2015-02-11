@@ -1027,13 +1027,6 @@
         "layer0.opacity": 1.0,
         "content_margin": [8, 8]
     },
-    // FileIcon.folders_hidden
-    {
-        "class": "icon_file_type",
-        "settings" : ["lp_hide_folders"],
-        "content_margin" : 0,
-        "layer0.opacity" : 0.0
-    },
     // FileIcon.hidden
     {
         "class": "icon_file_type",
