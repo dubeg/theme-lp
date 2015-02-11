@@ -61,7 +61,7 @@ To configure Sublime Text to use the theme, follow the instructions below.
 
 ### Visual Studio Style
 
-To use the vs style, you must have ST3 (for now) and add a file named 'Widget - LP3.sublime-settings' in your User directory, with the following content:
+To use the vs style, you must add a file named 'Widget - LP3.sublime-settings' (OR 'Widget - LP2.sublime-settings' for ST2) in your User directory, with the following content:
 
     {
         "color_scheme": "Packages/Theme - LP/assets/Widget_VS.stTheme"
@@ -71,7 +71,7 @@ In your User Settings, add the following line:
 
     "lp_use_vs" : true
 
-Note that this setting override settings for tabs and the active sidebar row.  To use the vs folder icon, add this line to your User settings:
+Note that this style overrides settings for tabs and the active sidebar row.  To use the vs folder icon, add this line to your User settings:
 
     "lp_use_folder_icon2": true
 
