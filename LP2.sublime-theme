@@ -17,51 +17,6 @@
 
 
 //
-// STANDARD BUTTON
-//
-    // Button
-    {
-        "class": "button_control",
-        "content_margin": [6, 7, 6, 8],
-        "min_size": [75, 0],
-        "layer0.tint" :[228,228,228],
-        "layer0.opacity": 1,
-        "layer0.inner_margin": [6, 6]
-    },
-    // Button:hover
-    {
-        "class": "button_control",
-        "attributes": ["hover"],
-        "layer0.tint" : [104,33,122]
-    },
-    // Button:pressed
-    {
-        "class": "button_control",
-        "attributes": ["pressed"],
-        "layer0.tint" : [40,40,40]
-    },
-    // Button Label
-    {
-        "class": "label_control",
-        "parents": [{"class": "button_control"}],
-        "font.size" : 11,
-        "color":[104,33,122]
-    },
-    // Button:hover Label
-    {
-        "class": "label_control",
-        "parents": [{"class": "button_control", "attributes":["hover"]}],
-        "color":[255,255,255]
-    },
-    // Button:pressed Label
-    {
-        "class": "label_control",
-        "parents": [{"class": "button_control", "attributes":["pressed"]}],
-        "color":[255,255,255]
-    },
-
-
-//
 // TEXTBOX
 //
     // Textbox
@@ -170,7 +125,7 @@
         "max_margin_trim": 0,
         "hit_test_level": 0.0,
         "layer0.texture": "Theme - LP/assets/tab_inactive.png",
-        "layer0.inner_margin": [1,0,1,4],
+        "layer0.inner_margin": [2,2,2,4],
         "layer0.opacity": 1.0
     },
     // Tab.style1
@@ -178,14 +133,14 @@
         "class": "tab_control",
         "settings" : ["lp_use_tab_style1"],
         "layer0.texture": "Theme - LP/assets/tab_inactive2.png",
-        "layer0.inner_margin": [1,1,1,4],
+        "layer0.inner_margin": [2,2,2,4],
         "content_margin": [12, 5, 7, 5]    },
     // Tab.style2
     {
         "class": "tab_control",
         "settings" : ["lp_use_tab_style2"],
         "layer0.texture": "Theme - LP/assets/tab_inactive3.png",
-        "layer0.inner_margin": [1,1,1,4],
+        "layer0.inner_margin": [2,2,2,4],
         "content_margin": [12, 5, 7, 5]
     },
     // Tab.style3
@@ -193,7 +148,7 @@
         "class": "tab_control",
         "settings" : ["lp_use_tab_style3"],
         "layer0.texture": "Theme - LP/assets/tab_inactive4.png",
-        "layer0.inner_margin": [1,1,1,4],
+        "layer0.inner_margin": [2,2,2,4],
         "content_margin": [12, 5, 7, 5]
     },
     // Tab.style4
@@ -201,7 +156,7 @@
         "class": "tab_control",
         "settings" : ["lp_use_tab_style4"],
         "layer0.texture": "Theme - LP/assets/tab_inactive5.png",
-        "layer0.inner_margin": [1,1,1,4],
+        "layer0.inner_margin": [2,2,2,4],
         "content_margin": [12, 5, 7, 5]
     },
     // Tab.style5
@@ -209,7 +164,7 @@
         "class": "tab_control",
         "settings" : ["lp_use_tab_style5"],
         "layer0.texture": "Theme - LP/assets/tab_inactive6.png",
-        "layer0.inner_margin": [1,1,1,4],
+        "layer0.inner_margin": [2,2,2,4],
         "content_margin": [12, 5, 7, 5]
     },
     // Tab:selected
@@ -762,7 +717,7 @@
         "layer0.opacity": 1.0,
         "layer1.texture": "Theme - LP/assets/sidebar_bg.png",
         "layer1.opacity": 1.0,
-        "layer1.inner_margin": [1,30,1,1],
+        "layer1.inner_margin": [2,30,2,2],
         "content_margin": [0, 1, 0, 0]
     },
     // Sidebar Tree
@@ -781,21 +736,14 @@
         "layer0.opacity" : 0.0,
         "layer0.tint" : [255,255,255,255],
         "layer0.texture" : "Theme - LP/assets/sidebar_active_row0.png",
-        "layer0.inner_margin" : [1,1]
+        "layer0.inner_margin" : [2,2]
     },
     // Statusbar Tree Row.style2
     {
         "class": "tree_row",
         "settings" : ["lp_use_sidebar_active_row_style2"],
         "layer0.texture" : "Theme - LP/assets/sidebar_active_row.png",
-        "layer0.inner_margin" : [3, 0,1,0]
-    },
-    // Statusbar Tree Row.style3
-    {
-        "class": "tree_row",
-        "settings" : ["lp_use_sidebar_active_row_style3"],
-        "layer0.texture" : "Theme - LP/assets/sidebar_active_row2.png",
-        "layer0.inner_margin" : [0,0,3,0]
+        "layer0.inner_margin" : [3, 0,2,0]
     },
     // Statusbar Tree Row.highlight_active_row
     {
@@ -1168,7 +1116,7 @@
     {
         "class": "overlay_control",
         "layer0.texture" : "Theme - LP/assets/overlay_bg.png",
-        "layer0.inner_margin": [1,1,1,1],
+        "layer0.inner_margin": [2,2],
         "layer0.opacity": 1.0,
         "content_margin": [5,5,5,5]
     },
@@ -1179,7 +1127,7 @@
         "layer0.tint" : [255,255,255],
         "layer0.opacity": 1.0,
         "layer0.texture": "Theme - LP/assets/panel_input.png",
-        "layer0.inner_margin": [1,1],
+        "layer0.inner_margin": [2,2],
         "content_margin": [5,5]
     },
 
@@ -1517,6 +1465,49 @@
     },
 
 
+//
+// STANDARD BUTTON
+//
+    // Button
+    {
+        "class": "button_control",
+        "content_margin": [6, 7, 6, 8],
+        "min_size": [75, 0],
+        "layer0.tint" :[228,228,228],
+        "layer0.opacity": 1,
+        "layer0.inner_margin": [6, 6]
+    },
+    // Button:hover
+    {
+        "class": "button_control",
+        "attributes": ["hover"],
+        "layer0.tint" : [104,33,122]
+    },
+    // Button:pressed
+    {
+        "class": "button_control",
+        "attributes": ["pressed"],
+        "layer0.tint" : [40,40,40]
+    },
+    // Button Label
+    {
+        "class": "label_control",
+        "parents": [{"class": "button_control"}],
+        "font.size" : 11,
+        "color":[104,33,122]
+    },
+    // Button:hover Label
+    {
+        "class": "label_control",
+        "parents": [{"class": "button_control", "attributes":["hover"]}],
+        "color":[255,255,255]
+    },
+    // Button:pressed Label
+    {
+        "class": "label_control",
+        "parents": [{"class": "button_control", "attributes":["pressed"]}],
+        "color":[255,255,255]
+    },
 
 
 
@@ -2183,7 +2174,7 @@
         "class": "overlay_control",
         "settings" : ["lp_use_vs"],
         "layer0.texture" : "Theme - LP/assets/overlay_bg_vs.png",
-        "layer0.inner_margin": [1,1,1,4],
+        "layer0.inner_margin": [2,2,2,5],
         "layer0.opacity": 1.0,
         "content_margin": [5,5]
     },
