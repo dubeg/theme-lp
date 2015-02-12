@@ -1526,6 +1526,22 @@
         "tab_height": 21,
         "layer0.texture": "Theme - LP/assets/tabset_background_vs.png"
     },
+    // Tab:medium
+    {
+        "class":"tabset_control",
+        "settings" : ["lp_use_vs", "lp_use_vs_medium_tabs"],
+        "tab_width": 10, 
+        "tab_min_width": 35,
+        "tab_height": 28
+    },
+    // Tab:medium
+    {
+        "class":"tabset_control",
+        "settings" : ["lp_use_vs", "lp_use_vs_medium_wide_tabs"],
+        "tab_width": 180, 
+        "tab_min_width": 35,
+        "tab_height": 28
+    }, 
 
 
 //
@@ -1538,6 +1554,18 @@
         "content_margin": [6,3,0,4],
         "layer0.texture":"Theme - LP/assets/tab_inactive_vs.png"
     },
+    // Tab:medium
+    {
+        "class":"tab_control",
+        "settings" : ["lp_use_vs", "lp_use_vs_medium_tabs"],
+        "content_margin": [6,3,3,4]
+    },
+    // Tab:medium_wide
+    {
+        "class":"tab_control",
+        "settings" : ["lp_use_vs", "lp_use_vs_medium_wide_tabs"],
+        "content_margin": [12, 5, 7, 5]
+    },  
     // Tab:hover
     {
         "class":"tab_control",

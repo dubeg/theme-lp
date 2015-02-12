@@ -7,10 +7,6 @@ Project site - [github.com/dubeg/theme-lp](https://github.com/dubeg/theme-lp)
 
 ![Default window](http://i.imgur.com/kBnPxek.png)
 
-![Widgets](http://i.imgur.com/M0tyndF.png)
-
-![Code completion](http://i.imgur.com/3qJcBZy.png)
-
 ![Dirty tab styles](http://i.imgur.com/lEVadkE.png)
 
 ![Compare folders](http://i.imgur.com/Q0RnPzl.png)
@@ -124,7 +120,15 @@ You can use the settings below to customize the theme to your liking.
     // -----------------------------------------------
     // New with 1.1.0
     // -----------------------------------------------
-    "lp_use_vs" : true          // Visual Studio UI Style
+    "lp_use_vs" : true,          // Visual Studio UI Style
+
+
+    // -----------------------------------------------
+    // New with 1.2.0
+    // -----------------------------------------------
+    "lp_use_vs_medium_tabs" : true ,        // Medium height
+    "lp_use_vs_medium_wide_tabs" : true,    // Medium height and width
+
 
 
 ## Resolution Support

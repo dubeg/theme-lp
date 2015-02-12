@@ -61,7 +61,15 @@ For more info and screenshots, visit the [project site](github.com/dubeg/theme-l
     // -----------------------------------------------
     // New with 1.1.0
     // -----------------------------------------------
-    "lp_use_vs" : true          // Visual Studio UI Style
+    "lp_use_vs" : true,          // Visual Studio UI Style
+
+
+    // -----------------------------------------------
+    // New with 1.2.0
+    // -----------------------------------------------
+    "lp_use_vs_medium_tabs" : true ,        // Medium height
+    "lp_use_vs_medium_wide_tabs" : true,    // Medium height and width
+
 
 
 
@@ -97,7 +105,13 @@ For more info and screenshots, visit the [project site](github.com/dubeg/theme-l
     // -----------------------------------------------
     // New with 1.1.0
     // -----------------------------------------------
-    "lp_use_vs" : true          // Visual Studio UI Style
+    "lp_use_vs" : true,          // Visual Studio UI Style
+
+    // -----------------------------------------------
+    // New with 1.2.0
+    // -----------------------------------------------
+    "lp_use_vs_medium_tabs" : true ,        // Medium height
+    "lp_use_vs_medium_wide_tabs" : true,    // Medium height and width
 
 
 
