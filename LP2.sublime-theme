@@ -1676,6 +1676,12 @@
         "parents":[{"class":"tab_control", "attributes":["selected"]}],    
         "layer0.opacity": 1.0
     },
+    // Tab button:hidden
+    {
+        "class": "tab_close_button",
+        "settings" : ["lp_use_vs", "lp_hide_btn_close_tab"], 
+        "layer0.opacity": 0.0
+    },
     // Tab:dirty button
     {
         "class": "tab_close_button",
@@ -1956,16 +1962,14 @@
     // SidebarRow FolderLabel.bold
     {
         "class": "sidebar_label",
-        "settings" : ["lp_use_vs"],
+        "settings" : ["lp_use_vs", "lp_bold_folder_labels"],
         "parents": [{"class": "tree_row", "attributes": ["expandable"]}],
-        "settings": ["lp_bold_folder_labels"],
         "font.bold": true
     },
     {
         "class": "sidebar_label",
-        "settings" : ["lp_use_vs"],
+        "settings" : ["lp_use_vs", "bold_folder_labels"],
         "parents": [{"class": "tree_row", "attributes": ["expandable"]}],
-        "settings": ["bold_folder_labels"],
         "font.bold": true
     },
 
@@ -2074,6 +2078,12 @@
         "settings" : ["lp_use_vs", "lp_smarthide_sheet_vertical_scrollbar"],
         "parents" : [{"class" : "sheet_container_control"}],
         "content_margin":[0,8]
+    },
+    // Scrollbar:hidden
+    {
+        "class": "puck_control",
+        "settings" : ["lp_use_vs", "lp_hide_scrollbars"],
+        "content_margin":[0,0]
     },
 
 
