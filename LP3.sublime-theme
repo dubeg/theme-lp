@@ -726,11 +726,16 @@
     // Sidebar Tree
     {
         "class": "sidebar_tree",
-        "row_padding": [8,2,8,5],
-        "indent": 15,
+        "row_padding": [8,4,8,5],
+        "indent": 20,
         "indent_offset": 15,
         "indent_top_level": false,
         "dark_content": false
+    },
+    {
+        "class":"sidebar_tree",
+        "indent_offset":8,
+        "settings" : ["lp_hide_group_icons"],
     },
     // Sidebar Tree Row
     {
@@ -739,7 +744,10 @@
         "layer0.opacity" : 0.0,
         "layer0.tint" : [255,255,255,255],
         "layer0.texture" : "Theme - LP/assets/sidebar_active_row0.png",
-        "layer0.inner_margin" : [1,1]
+        "layer0.inner_margin" : [1,1],
+        "layer1.opacity" : 0.0,
+        "layer2.opacity" : 0.0,
+        "layer3.opacity" : 0.0
     },
     // Statusbar Tree Row.style2
     {
@@ -789,12 +797,6 @@
         "font.bold": false,
         "font.italic": false
     },
-    // Row:hover SidebarLabel
-    {
-        "class": "sidebar_label",
-        "parents": [{"class": "tree_row", "attributes": ["hover"]}],
-        "color": [177,71,221]
-    },
     // Row:selected SidebarLabel
     {
         "class": "sidebar_label",
@@ -811,14 +813,7 @@
     // Row:expandable SidebarLabel
     {
         "class": "sidebar_label",
-        "parents": [{"class": "tree_row", "attributes": ["expandable"]}],
-        "color": [82,30,116]
-    },
-    // Row:expandable:hover SidebarLabel
-    {
-        "class": "sidebar_label",
-        "parents": [{"class": "tree_row", "attributes": ["expandable", "hover"]}],
-        "color":[177,71,221]
+        "parents": [{"class": "tree_row", "attributes": ["expandable"]}]
     },
     // Row:expandable SidebarLabel.bold
     {
@@ -1150,38 +1145,49 @@
         "class": "quick_panel_row",
         "layer0.tint": [238,238,238],
         "layer0.inner_margin": [2,2],
-        "layer0.opacity": 1.0
+        "layer0.opacity": 1.0,
+        "layer1.opacity" : 0.0,
+        "layer2.opacity" : 0.0,
+        "layer3.opacity" : 0.0,
     },
     // QuickPanelRow:selected
     {
         "class": "quick_panel_row",
         "attributes": ["selected"],
-        "layer0.tint": [106,34,125],
-        "layer0.opacity" : 1.0
+        "layer0.tint": [225,225,225],
+        "layer0.opacity" : 1.0,
+
+        "layer1.opacity": 1.0,
+        "layer1.inner_margin":[3,0],
+        "layer1.draw_center":false,
+        "layer1.tint": [100, 75, 116],
+
+        "layer1.inner_margin":[1,1],
+        "layer1.tint": [200,200,200]
     },
-    // QuickPanelLabel
+    // Label
     {
         "class": "quick_panel_label",
         "fg": [60, 60, 60, 255],
-        "match_fg": [60, 60, 60, 255],
+        "match_fg": [100,100,100,255],
 
-        "selected_fg": [255,255,255, 255],
-        "selected_match_fg": [255,255,255]
+        "selected_fg": [60, 60, 60, 255],
+        "selected_match_fg": [100,100,100, 255]
     },
-    // QuickPanelPathLabel
+    // Path
     {
         "class": "quick_panel_path_label",
         "fg": [170, 170, 170, 255],
-        "match_fg": [150, 150, 150, 255],
+        "match_fg": [170, 170, 170, 255],
 
-        "selected_fg": [200, 200, 200, 255],
-        "selected_match_fg":[255, 255, 255, 255]
+        "selected_fg": [150,150,150],
+        "selected_match_fg":[150,150,150]
     },
-    // QuickPanelScoreLabel
+    // Score
     {
         "class": "quick_panel_score_label",
         "fg": [104,33,122],
-        "selected_fg": [255,255,255]
+        "selected_fg": [90, 75, 106], 
     },
 
 
@@ -1193,13 +1199,19 @@
         "class": "mini_quick_panel_row",
         "layer0.tint" : [238,238,238],
         "layer0.inner_margin": [2, 2, 2, 2],
-        "layer0.opacity": 1.0
+        "layer0.opacity": 1.0,
+        "layer1.opacity": 0.0
     },
     // MiniQuickPanelRow:selected
     {
         "class": "mini_quick_panel_row",
         "attributes": ["selected"],
-        "layer0.tint" : [106,34,125]
+        "layer0.tint" : [226,225,227],
+
+        "layer1.opacity": 1.0,
+        "layer1.inner_margin":[1,1],
+        "layer1.draw_center":false,
+        "layer1.tint": [200,200,200]
     },
 
 
@@ -2233,7 +2245,7 @@
         "layer0.tint": [201,222,245],
         "layer0.opacity" : 1.0
     },
-    // QuickPanelLabel
+    // Label
     {
         "class": "quick_panel_label",
         "settings" : ["lp_use_vs"],
@@ -2243,7 +2255,7 @@
         "selected_fg": [0,0,0],
         "selected_match_fg": [0,0,0]
     },
-    // QuickPanelPathLabel
+    // Path
     {
         "class": "quick_panel_path_label",
         "settings" : ["lp_use_vs"],
@@ -2252,10 +2264,8 @@
 
         "selected_fg": [100,100,100],
         "selected_match_fg":[100,100,100]
-        //"selected_fg": [255,255,255],
-        //"selected_match_fg":[255,255,255]
     },
-    // QuickPanelScoreLabel
+    // Score
     {
         "class": "quick_panel_score_label",
         "settings" : ["lp_use_vs"],
