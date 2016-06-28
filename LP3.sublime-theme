@@ -1130,6 +1130,31 @@
     },
 
 
+
+
+//
+// MINI QUICK PANEL (Command palette)
+//
+    {
+        "class": "mini_quick_panel_row",
+        "layer0.tint" : [238,238,238],
+        "layer0.inner_margin": [2, 2, 2, 2],
+        "layer0.opacity": 1.0,
+        "layer1.opacity": 0.0
+    },
+    {
+        "class": "mini_quick_panel_row",
+        "attributes": ["selected"],
+        "layer0.tint" : [226,225,227],
+        "layer0.tint" : [227,226,228],
+        //"layer0.tint" : [255,255,255],
+
+        "layer1.opacity": 1.0,
+        "layer1.inner_margin":[1,1],
+        "layer1.draw_center":false,
+        "layer1.tint": [200,200,200],
+        "layer1.tint": [130, 60, 130, 255],
+    },
 //
 // QUICK PANEL (Goto)
 //
@@ -1155,15 +1180,15 @@
         "class": "quick_panel_row",
         "attributes": ["selected"],
         "layer0.tint": [225,225,225],
+        "layer0.tint" : [227,226,228],
+        //"layer0.tint" : [255,255,255],
         "layer0.opacity" : 1.0,
 
         "layer1.opacity": 1.0,
-        "layer1.inner_margin":[3,0],
         "layer1.draw_center":false,
-        "layer1.tint": [100, 75, 116],
-
         "layer1.inner_margin":[1,1],
-        "layer1.tint": [200,200,200]
+        "layer1.tint": [200,200,200],
+        "layer1.tint": [130, 60, 130, 255],
     },
     // Label
     {
@@ -1171,8 +1196,8 @@
         "fg": [60, 60, 60, 255],
         "match_fg": [100,100,100,255],
 
-        "selected_fg": [60, 60, 60, 255],
-        "selected_match_fg": [100,100,100, 255]
+        "selected_fg": [130, 60, 130, 255],
+        "selected_match_fg": [130, 60, 130, 255]
     },
     // Path
     {
@@ -1180,38 +1205,14 @@
         "fg": [170, 170, 170, 255],
         "match_fg": [170, 170, 170, 255],
 
-        "selected_fg": [150,150,150],
-        "selected_match_fg":[150,150,150]
+        "selected_fg": [120,120,120],
+        "selected_match_fg":[120,120,120]
     },
     // Score
     {
         "class": "quick_panel_score_label",
         "fg": [104,33,122],
-        "selected_fg": [90, 75, 106], 
-    },
-
-
-//
-// MINI QUICK PANEL (Command palette)
-//
-    // MiniQuickPanelRow
-    {
-        "class": "mini_quick_panel_row",
-        "layer0.tint" : [238,238,238],
-        "layer0.inner_margin": [2, 2, 2, 2],
-        "layer0.opacity": 1.0,
-        "layer1.opacity": 0.0
-    },
-    // MiniQuickPanelRow:selected
-    {
-        "class": "mini_quick_panel_row",
-        "attributes": ["selected"],
-        "layer0.tint" : [226,225,227],
-
-        "layer1.opacity": 1.0,
-        "layer1.inner_margin":[1,1],
-        "layer1.draw_center":false,
-        "layer1.tint": [200,200,200]
+        "selected_fg": [130, 60, 130, 255]
     },
 
 
