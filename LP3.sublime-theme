@@ -695,12 +695,12 @@
         "layer0.inner_margin" : [2,2],
         "layer0.tint": [255,255,255],
         "layer0.opacity": 1.0,
-        "content_margin": [8, 8, 8, 8]
+        "content_margin": [3,3]
     },
     // StatusbarButton
     {
         "class": "status_button",
-        "min_size": [100, 0]
+        "min_size": [60, 0]
     },
     // Statusbar Label
     {
