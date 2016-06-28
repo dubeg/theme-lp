@@ -496,8 +496,14 @@
     // ScrollbarPuck
     {
         "class": "puck_control",
-        "layer0.tint": [200,200,200],
+        "layer0.tint": [202,200,202],
         "layer0.opacity": 1.0,
+
+        "layer1.tint" : [237,237,237],
+        "layer1.opacity":1,
+        "layer1.draw_center":false,
+        "layer1.inner_margin":[3,3],
+
         "content_margin": [7,7],
         "blur": false
     },
