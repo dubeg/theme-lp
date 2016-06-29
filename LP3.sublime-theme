@@ -1910,24 +1910,26 @@
     // Minimap
     {
         "class": "minimap_control",
+        "settings" : ["lp_use_vs"],
         "viewport_color": [30,30,30,75],
         "viewport_opacity": { "target": 0.0, "speed": 5.0, "interpolation": "smoothstep" },
     },
     // Minimap:always_visible
     {
         "class": "minimap_control",
-        "settings": ["lp_always_show_minimap_viewport"],
+        "settings": ["lp_use_vs", "lp_always_show_minimap_viewport"],
         "viewport_opacity": 0.4
     },
     // Minimap:always_visible
     {
         "class": "minimap_control",
-        "settings": ["always_show_minimap_viewport"],
+        "settings": ["lp_use_vs", "always_show_minimap_viewport"],
         "viewport_opacity": 0.4
     },
     // Minimap:hover
     {
         "class": "minimap_control",
+        "settings": ["lp_use_vs"],
         "attributes": ["hover"],
         "viewport_opacity": 1.0
     },
@@ -2503,8 +2505,6 @@
 // END REGION - VISUAL STUDIO
 //   
 // -----------------------------------------------
-
-
 
 
 ]
