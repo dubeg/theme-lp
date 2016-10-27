@@ -1,13 +1,5 @@
 [
-    // Open ..
-    {
-        "caption": "LP: Open LP2",
-        "command": "open_file", 
-        "args": 
-        {
-            "file": "${packages}/Theme - LP/LP2.sublime-theme"
-        }
-    },    
+    // Open .. 
     {
         "caption": "LP: Open LP3",
         "command": "open_file", 
