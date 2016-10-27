@@ -1013,23 +1013,35 @@
     // Overlay
     {
         "class": "overlay_control",
-        "layer0.texture" : "Theme - LP/assets/overlay_bg.png",
-        "layer0.inner_margin": [1,1,1,1],
+        "content_margin": [5,5,5,5],
+
+        "layer0.tint":[236,231,230],
+        "layer0.texture": "",
+        "layer0.inner_margin": [2,2],
         "layer0.opacity": 1.0,
-        "content_margin": [5,5,5,5]
+
+        "layer1.tint":[212,212,212],
+        "layer1.draw_center":false,
+        "layer1.inner_margin":[1,0,1,1],
+        "layer1.opacity":1,
+
     },
     // Overlay Textbox
     {
         "class": "text_line_control",
         "parents": [{"class": "overlay_control"}],
-        "layer0.tint" : [255,255,255],
+        "content_margin": [5,5],
+
+        "layer0.tint":[255,255,255],
+        "layer0.texture": "",
+        "layer0.inner_margin": [2,2],
         "layer0.opacity": 1.0,
-        "layer0.texture": "Theme - LP/assets/panel_input.png",
-        "layer0.inner_margin": [1,1],
-        "content_margin": [5,5]
+
+        "layer1.tint":[212,212,212],
+        "layer1.draw_center":false,
+        "layer1.inner_margin":[1,1,1,1],
+        "layer1.opacity":1,
     },
-
-
 
 
 //
@@ -1037,17 +1049,18 @@
 //
     {
         "class": "mini_quick_panel_row",
-        "layer0.tint" : [238,238,238],
+
+        "layer0.tint" : [236,231,230],
         "layer0.inner_margin": [2, 2, 2, 2],
+
         "layer0.opacity": 1.0,
         "layer1.opacity": 0.0
     },
     {
         "class": "mini_quick_panel_row",
         "attributes": ["selected"],
-        "layer0.tint" : [226,225,227],
-        "layer0.tint" : [227,226,228],
-        //"layer0.tint" : [255,255,255],
+
+        "layer0.tint" : [228,223,222],
 
         "layer1.opacity": 1.0,
         "layer1.inner_margin":[1,1],
@@ -1068,9 +1081,11 @@
     // QuickPanelRow
     {
         "class": "quick_panel_row",
-        "layer0.tint": [238,238,238],
+
+        "layer0.tint": [236,231,230],
         "layer0.inner_margin": [2,2],
         "layer0.opacity": 1.0,
+
         "layer1.opacity" : 0.0,
         "layer2.opacity" : 0.0,
         "layer3.opacity" : 0.0,
@@ -1079,9 +1094,8 @@
     {
         "class": "quick_panel_row",
         "attributes": ["selected"],
-        "layer0.tint": [225,225,225],
-        "layer0.tint" : [227,226,228],
-        //"layer0.tint" : [255,255,255],
+        
+        "layer0.tint": [228,223,222],
         "layer0.opacity" : 1.0,
 
         "layer1.opacity": 1.0,
